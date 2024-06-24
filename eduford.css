@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0px;
+}
+.header{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(eduford_img/banner.png);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.nav-logo img{
+    width: 140px;
+}
+.nav-item{
+    font-size: .9em;
+}
+.container{
+    padding-top: 30px;
+}
+
+.header-content{
+    padding: 0px 44px;
+    color: white;
+    text-align: center;
+}
+.header-content h1{
+    font-size: 65px;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
+    margin-top: 33px;
+}
+.header-content p{
+    font-size: 15px;
+    padding: 18px 17px;
+    font-style: normal;
+}
+@media screen and (max-width:600px){
+    .header-content h1{
+        font-size: 40px;
+    }
+    
+}
+.header-button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    width: 227px;
+    height: 50px;
+    margin-top: 45px;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+.header-button:hover{
+    background-color: rgb(0, 191, 255);
+}
+
+/* ----------Courses we offer----- */
+
+section div h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 65px;
+}
+section div p{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+    margin-top: 20px;
+}
+#card{
+    background: #f3f3e25c;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;border-radius: 15px;
+    
+}
+.cardPar{
+    border: none;
+}
+
+
+/* -------Our Global Campus------ */
+
+.campus{
+    width: 22em;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* ------------Our Facilities-------- */
+
+
+
+
+/* ----------What Our Student Says-------- */
+.user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 28px;
+}
+.user{
+    display: flex;
+    background: #f3f3e25c;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 35px;
+}
+.comment{
+    text-align: start;
+}
+
+/* ---------Enroll For Our Various Online Courses------- */
+
+
+.enrol{
+    width: 100%;
+    height: 32em;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(eduford_img/banner2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+#enrol-content{
+    text-align: center;
+    color: white;
+    line-height: 9rem;
+    margin: 10px;
+}
+.enrol-text{
+    line-height: 7rem;
+}
+#enrol-btn{
+    border: 2px solid white;
+    font-size: medium;
+    text-align: center;
+    width: 150px;
+}
+@media screen and (max-width:600px){
+    .enrol-text{
+        font-size: xx-large;
+        line-height: 65px;
+        padding: 20px;
+    }
+    
+}
+
+
+.about{
+    text-align: center;
+}
+.about h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.about p{
+    margin: 0px 57px;
+    color: grey;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about label{
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 25px;
+    
+}
+.about a{
+    text-decoration: none;
+}
